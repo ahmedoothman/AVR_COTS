@@ -10,7 +10,7 @@
 /****************************************************/
 /*********************  TIMER0 **********************/
 /****************************************************/
-#define TIMER0_RESOLUTION 256
+#define TIMER0_RESOLUTION 255
 /*
     PRESCALER OPTIONS:
 
@@ -44,13 +44,13 @@
     CLEAR_COMPARE_MODE_NON_INVERTING
     SET_COMPARE_MODE_INVERTING
  */
-
+`
 #define TIMER0_OCR_PIN_MODE NORMAL_COMPARE_MODE
 
 /****************************************************/
 /*********************  TIMER2 **********************/
 /****************************************************/
-#define TIMER2_RESOLUTION 256
+#define TIMER2_RESOLUTION 255
 /*
     PRESCALER OPTIONS:
 
