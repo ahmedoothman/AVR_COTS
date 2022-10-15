@@ -1,0 +1,17 @@
+HAL/SWITCHES/SWITCHES_prg.o HAL/SWITCHES/SWITCHES_prg.o:  \
+ ../HAL/SWITCHES/SWITCHES_prg.c ../HAL/SWITCHES/../../LIB/std_types.h \
+  ../HAL/SWITCHES/../../LIB/bit_map.h \
+  ../HAL/SWITCHES/../../MCAL/DIO/DIO_int.h ../HAL/SWITCHES/SWITCHES_pri.h \
+  ../HAL/SWITCHES/SWITCHES_cfg.h ../HAL/SWITCHES/SWITCHES_int.h
+
+../HAL/SWITCHES/../../LIB/std_types.h:
+
+../HAL/SWITCHES/../../LIB/bit_map.h:
+
+../HAL/SWITCHES/../../MCAL/DIO/DIO_int.h:
+
+../HAL/SWITCHES/SWITCHES_pri.h:
+
+../HAL/SWITCHES/SWITCHES_cfg.h:
+
+../HAL/SWITCHES/SWITCHES_int.h:
