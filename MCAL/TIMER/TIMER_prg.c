@@ -78,7 +78,7 @@ void TIMER_vSetPreLoad(u8 A_u8TIMERID, u16 A_u16PreloadValue)
         TCNT2 = (u8)A_u16PreloadValue;
         break;
     case TIMER1:
-        TCNTW = A_u16PreloadValue;
+        TCNT1W = A_u16PreloadValue;
         break;
 
     default:
@@ -127,6 +127,20 @@ void TIMER_vSetOCR1BWValue(u16 A_u16OcrValue)
 void TIMER_vSetICR1WValue(u16 A_u16OcrValue)
 {
     ICR1W = A_u16OcrValue;
+}
+/*********************************************************/
+/* Set TCNT For Timer 1*/
+/*********************************************************/
+void TIMER_vSetTCNT1WValue(u16 A_u16TcntValue)
+{
+    TCNT1W = A_u16TcntValue;
+}
+/*********************************************************/
+/* get TCNT For Timer 1*/
+/*********************************************************/
+u16 TIMER_u16GetTCNT1W()
+{
+    return TCNT1W;
 }
 /********************************************************/
 /* Generate Delays, ALL TIMERS */

@@ -83,7 +83,7 @@
 #define TCNT1L *((volatile u8 *)0x4C)
 
 /*Timer/Counter1 – TCNT1H + TCNT1L*/
-#define TCNTW *((volatile u16 *)0x4C)
+#define TCNT1W *((volatile u16 *)0x4C)
 
 /*Output Compare Register 1 A OCR1AH */
 #define OCR1AH *((volatile u8 *)0x4B)
